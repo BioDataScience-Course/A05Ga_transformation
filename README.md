@@ -1,31 +1,33 @@
-# Exercices pratiques sur le Module 2 Régression linéaire II
+# Module 5 : importation et au traitement des données
 
 ## Avant-propos
 
-Cette séance d'exercices est en cours de développement. N'hésitez pas à vérifier le lien suivant afin de voir si des modifications n'ont pas été apportées dans les consignes : https://github.com/BioDataScience-Course/A05Ga_transformation
+Les consignes sont reprises dans ce document, ainsi que sous forme de commentaires dans les différents fichiers. Elles sont susceptibles d'évoluer. N'hésitez pas à vérifier le lien suivant afin de voir si des modifications n'y ont pas été apportées : https://github.com/BioDataScience-Course/A05Ga_transformation.
 
 ## Objectifs
 
-Ce projet est un projet **individuel**, **court** et **cadré** qui doit être **terminé pour la fin du module 5**. 
+Ceci est un projet **individuel**, **court** et **cadré** qui doit être **terminé pour la fin du module 5**. Il permettra de nous démontrer que vous avez acquis les compétences suivantes :
 
-- Savoir importer des données depuis différents formats et différentes sources via la fonction `read()`.
+- Être capable d'importer des données depuis différents formats et différentes sources avec la fonction `read()`.
 
-- Savoir remanier des variables, filtrer un tableau et le résumer afin d’en extraire l’information importante.
+- Maîtriser le remaniement de données, filtrer un tableau et le résumer afin d’en extraire l’information importante.
 
-- Savoir utiliser l'opérateur `%>.%` pour le chaînage des instructions
+- Comprendre et utiliser l'opérateur `%>.%` pour le chaînage des instructions.
 
 ## Consignes 
 
-### Partie I : coral 
+### Partie I : coral
 
-- Dans le script `coral_import.R` qui se trouve dans le dossier `R`, importez les données sur la croissance des coraux depuis l'url suivant : 
+- Dans le script `coral_import.R` qui se trouve dans le dossier `R`, importez les données sur la croissance des coraux depuis l'url suivante : 
 
+```
 https://docs.google.com/spreadsheets/d/e/2PACX-1vSxqegwJVjO0PxIs7mObr0syeYwNdpvd25AWUoWkwocQexYUqQUK0hC57NwsypQQUDnsJLiR-hxzSFA/pub?output=csv
+```
 
-- Enregistrez une copie local du jeu de données dans le dossier `data`.
+- Enregistrez une copie locale du jeu de données dans le dossier `data` que vous allez créer préalablement pour l'occasion, toujours dans `coral_import.R`.
 
-- Réalisez la série d'instruction contenue dans le fichier `coral.Rmd` du dossier `docs`.
+- Complétez le fichier `coral.Rmd` du dossier `docs` en suivant les instructions qui s'y trouvent.
 
-### Partie II : biometry 
+### Partie II : biometry
 
-- Dans le fichier `biometry.Rmd` que vous trouverez dans le dossier `docs`, réalisez les instructions demandées en utilisant un chainage des opérations avec le pipe (`%>.%`) à chaque fois que cela se justifie.
+- Complétez le document `biometry.Rmd` du dossier `docs` en fonction des consignes qui s'y trouvent. Pensez bien à utiliser un chaînage des opérations avec l'opérateur `%>.%` à chaque fois que cela se justifie.
