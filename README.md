@@ -28,6 +28,18 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vSxqegwJVjO0PxIs7mObr0syeYwNdpvd
 
 - Complétez le fichier `coral.Rmd` du dossier `docs` en suivant les instructions qui s'y trouvent.
 
+Le jeu de données reprend des mesures de croissance de différentes espèces de coraux. La masse est mesurée en t0 puis une seconde fois après 7 jours de suivi.
+
+- localisation : aquarium dans lequel la bouture est placée. Les installations sont composées de deux unités (A et B)et de plusieurs bacs par unité.
+species : espèce étudiée
+- id : code de l'individu
+- salinity : salinité mesurée en t7
+- temperature : température mesurée en t7
+- date : date de la mesure en t7
+- time : nombre de jour entre la mesure initiale et finale
+- gain : gain de masse en g entre le jour t0 et t7
+- gain_std : gain/masse initiale
+
 ### Partie II : biometry
 
 - Complétez le document `biometry.Rmd` du dossier `docs` en fonction des consignes qui s'y trouvent. Pensez bien à utiliser un chaînage des opérations avec l'opérateur `%>.%` à chaque fois que cela se justifie.
